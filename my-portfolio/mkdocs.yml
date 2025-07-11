@@ -1,0 +1,53 @@
+site_name: Qammer Jamil – Cloud & AI Engineer
+site_url: https://yourdomain.com
+site_author: Qammer Jamil
+site_description: "Portfolio of Qammer Jamil: Cloud Engineer and AI Developer showcasing 5G, Cloud, and AI projects"
+
+theme:
+  name: material
+  language: en
+  palette:
+    scheme: default
+    primary: indigo
+    accent: teal
+  font:
+    text: Roboto
+    code: Fira Code
+  features:
+    - navigation.tabs         # Top tab navigation
+    - navigation.sections
+    - navigation.instant
+    - toc.integrate
+    - search.highlight
+    - search.suggest
+
+nav:
+  - Home: index.md
+  - About Me: about.md
+  - Cloud Engineering:
+      - AWS Projects: cloud/aws.md
+      - Azure Projects: cloud/azure.md
+      - CI/CD Pipelines: cloud/cicd.md
+  - AI & ML:
+      - NLP Projects: ai/nlp.md
+      - Computer Vision: ai/cv.md
+      - MLOps: ai/mlops.md
+  - Certifications: certifications.md
+  - Blog:
+      - 2025 AI & Cloud Trends: blog/2025-ai-cloud-trends.md
+  - Resume: resume.md
+  - Contact: contact.md
+
+plugins:
+  - search
+
+markdown_extensions:
+  - admonition
+  - codehilite
+  - toc:
+      permalink: true
+  - pymdownx.superfences
+  - pymdownx.details
+  - pymdownx.tabbed:
+      alternate_style: true
+  - attr_list
