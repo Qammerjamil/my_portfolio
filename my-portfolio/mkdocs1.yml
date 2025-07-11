@@ -1,0 +1,14 @@
+site_name: portfolio
+site_description: collection of my projects
+
+nav:
+  - Home: index.md
+  - Projects: projects.md
+  - Skills: skills.md
+  - About: about.md
+  - Resume: resume.md
+#theme: readthedocs
+theme: mkdocs
+
+
+
